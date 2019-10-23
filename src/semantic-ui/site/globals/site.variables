@@ -1,0 +1,11 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+body {
+font-family: 'Europa', 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+p {
+font-size: 1.1em;
+}
