@@ -6,7 +6,7 @@ import vama from './components/Assets/project-vama.jpg';
 import amtos from './components/Assets/project-amtos.jpg';
 import { Header, Grid, Image, Responsive, Icon } from 'semantic-ui-react'
 import { render } from "react-dom";
-import { Router, Link } from "@reach/router";
+import { Router, Link, Redirect } from "@reach/router";
 
 class Work extends Component {
     render() {
@@ -55,13 +55,6 @@ class Work extends Component {
 
                     <Grid.Column>
                         <Image src={amtos} fluid/>
-                    </Grid.Column>
-                </Grid>
-
-                <Grid centered columns={1} style={{marginTop: '5rem' }}>
-                    <Grid.Column textAlign='center'>
-                        <Header as='h5' style={{marginBottom: '5px' }}>© Brasgaard.com 2019</Header>
-                        <Header.Subheader icon> <Icon name='linkedin' size='big'/><Icon name='instagram' size='big'/></Header.Subheader>
                     </Grid.Column>
                 </Grid>
             </React.Fragment>

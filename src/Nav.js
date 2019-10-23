@@ -8,7 +8,7 @@ class Nav extends Component {
             <React.Fragment>
                 <Menu stackable text borderless size='large' style={{margin: '2rem' }}>
                     <Menu.Item name='work'>
-                        <Link to="/">Work</Link>
+                        <Link to="/Work">Work</Link>
                     </Menu.Item>
 
                     <Menu.Item name='Resume'>
