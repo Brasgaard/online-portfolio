@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import { Header, Grid, Icon } from 'semantic-ui-react'
 import { render } from "react-dom";
-import { Router, Link, Redirect } from "@reach/router";
+import { Router, Link } from "@reach/router";
 
 class Footer extends Component {
     render() {

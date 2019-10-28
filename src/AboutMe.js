@@ -58,7 +58,7 @@ class AboutMe extends Component {
                             I’m currently available for new projects, <a style={{ color: '#2f89fc' }} href="mailto:alexander@brasgaard.com" target="_top">so send me a message</a> and let’s discuss how I can help you. I’m open to work both on-site in Aarhus, remotely or if the right opportunity shows itself move to another country.
                         </p>
                         <p>
-                            You can follow me on <a style={{ color: '#2f89fc' }} href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank">LinkedIn</a> or reach out via email - <a style={{ color: '#2f89fc' }} href="mailto:alexander@brasgaard.com" target="_top">alexander@brasgaard.com</a>
+                            You can follow me on <a style={{ color: '#2f89fc' }} href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or reach out via email - <a style={{ color: '#2f89fc' }} href="mailto:alexander@brasgaard.com" target="_top">alexander@brasgaard.com</a>
                         </p>
 
                         <Divider />

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Router, Link } from "@reach/router";
-import { Menu } from 'semantic-ui-react'
+import { Menu } from 'semantic-ui-react';
 
 class Nav extends Component {
     render() {
@@ -12,6 +12,7 @@ class Nav extends Component {
                     </Menu.Item>
 
                     <Menu.Item name='Resume'>
+                        <Link to="/NjordexProject">Resume</Link>
                     </Menu.Item>
 
                     <Menu.Menu position='right'>

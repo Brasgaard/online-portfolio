@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import {  } from 'semantic-ui-react'
 import { render } from "react-dom";
-import {Router, Link, navigate, Redirect} from "@reach/router";
+import {Router, Link, navigate} from "@reach/router";
 import AboutMe from './AboutMe';
 import Nav from "./Nav";
 import Work from "./Work";

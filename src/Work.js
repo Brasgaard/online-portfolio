@@ -4,9 +4,9 @@ import njordex from './components/Assets/project-njordex.jpg';
 import dinadi from './components/Assets/project-dinadi.jpg';
 import vama from './components/Assets/project-vama.jpg';
 import amtos from './components/Assets/project-amtos.jpg';
-import { Header, Grid, Image, Responsive, Icon } from 'semantic-ui-react'
+import { Header, Grid, Image, Responsive } from 'semantic-ui-react';
 import { render } from "react-dom";
-import { Router, Link, Redirect } from "@reach/router";
+import { Router, Link } from "@reach/router";
 
 class Work extends Component {
     render() {
