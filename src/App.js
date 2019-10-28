@@ -7,6 +7,7 @@ import AboutMe from './AboutMe';
 import Nav from "./Nav";
 import Work from "./Work";
 import Footer from "./Footer";
+import ProjectNjordex from "./ProjectNjordex";
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
                 <Router>
                   <Work path="/Work"/>
                   <AboutMe path="/AboutMe"/>
+                  <ProjectNjordex path="/ProjectNjordex"/>
                 </Router>
             <Footer/>
           </React.Fragment>
