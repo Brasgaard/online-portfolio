@@ -42,11 +42,11 @@ class Work extends Component {
 
                 <Grid columns={2} container stackable>
                     <Grid.Column>
-                        <Image src={njordex} fluid/>
+                        <Link to="/ProjectNjordex"><Image src={njordex} fluid/></Link>
                     </Grid.Column>
 
                     <Grid.Column>
-                        <Image src={dinadi} fluid/>
+                        <Link to="/ProjectDinadi"><Image src={dinadi} fluid/></Link>
                     </Grid.Column>
 
                     <Grid.Column>

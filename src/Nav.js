@@ -12,7 +12,7 @@ class Nav extends Component {
                     </Menu.Item>
 
                     <Menu.Item name='Resume'>
-                        <Link to="/ProjectNjordex">Resume</Link>
+                        <Link to="/Work">Resume</Link>
                     </Menu.Item>
 
                     <Menu.Menu position='right'>

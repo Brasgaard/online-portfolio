@@ -3,45 +3,44 @@ import './App.css';
 import {Header, Grid, Responsive, Image, List, Divider} from 'semantic-ui-react'
 import { render } from "react-dom";
 import { Router, Link } from "@reach/router";
-import njordexHeader from "./components/Assets/project-njordex-header.jpg";
-import njordexLandingpage from "./components/Assets/project-njordex-landingpage.jpg";
-import njordexDashboard from "./components/Assets/project-njordex-dashboard.jpg";
-import njordexMobile from "./components/Assets/project-njordex-mobile.jpg";
+import dinadiHeader from "./components/Assets/project-dinadi-header.jpg";
+import dinadiRedesign from "./components/Assets/project-dinadi-redesign.jpg";
+import dinadiMockups from "./components/Assets/project-dinadi-mockups.jpg";
+import dinadiWordpress from "./components/Assets/project-dinadi-wordpress.jpg";
 import ThanksForReading from "./ThanksForReading";
 
-class ProjectNjordex extends Component {
+class ProjectDinadi extends Component {
     render() {
         return (
             <React.Fragment>
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid centered columns={1} style={{margin: '5rem' }}>
                         <Grid.Column>
-                            <Header as='h1' textAlign='center' style={{fontSize: '3.4em' }}>Project: Njordex<br/>
-                                Your new cryptocurrency platform.</Header>
+                            <Header as='h1' textAlign='center' style={{fontSize: '3.4em' }}>Project: Dinadi<br/>
+                                Taking slow fashion quite literally.</Header>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
                 <Responsive {...Responsive.onlyTablet}>
                     <Grid centered columns={1} style={{margin: '3rem' }}>
                         <Grid.Column>
-                            <Header as='h1' textAlign='center' style={{fontSize: '3em' }}>Project: Njordex<br/>
-                                Your new cryptocurrency platform.</Header>
+                            <Header as='h1' textAlign='center' style={{fontSize: '3em' }}>Project: Dinadi<br/>
+                                Taking slow fashion quite literally.</Header>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile}>
                     <Grid centered columns={1} style={{margin: '1rem' }}>
                         <Grid.Column>
-                            <Header as='h1' textAlign='center' style={{fontSize: '1.3em' }}>Project: Njordex<br/>
-                                Your new cryptocurrency platform.
-                            </Header>
+                            <Header as='h1' textAlign='center' style={{fontSize: '1.3em' }}>Project: Dinadi<br/>
+                                Taking slow fashion quite literally.</Header>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
 
                 <Grid columns={1} container stackable centered>
                     <Grid.Column>
-                        <Image src={njordexHeader} fluid/>
+                        <Image src={dinadiHeader} fluid/>
                     </Grid.Column>
                 </Grid>
 
@@ -51,9 +50,8 @@ class ProjectNjordex extends Component {
                             Background
                         </Header>
                         <p>
-                            Njordex is a cryptocurrency platform where you can buy, sell, send and store your crypto assets. The goal is to make the experience with cryptocurrency user-friendly and simple for everybody.<br/>
-                            Website (still under development): <a style={{ color: '#2f89fc' }} href="https://www.njordex.dk/" target="_blank" rel="noopener noreferrer">Njordex.dk</a>
-
+                            Dinadi is a social business established in Kathmandu, Nepal in April, 2016. Their vision is to create fair employment opportunities for Nepali women and produce sustainable, timeless and high-quality knitwear.<br/>
+                            Website: <a style={{ color: '#2f89fc' }} href="https://www.dinadi.com/" target="_blank" rel="noopener noreferrer">Dinadi.com</a>
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -61,12 +59,12 @@ class ProjectNjordex extends Component {
                             My role
                         </Header>
                         <List bulleted>
-                            <List.Item>User research</List.Item>
+                            <List.Item>Redesign of website</List.Item>
                             <List.Item>Wireframing</List.Item>
                             <List.Item>Prototyping</List.Item>
-                            <List.Item>UI / UX design</List.Item>
-                            <List.Item>Web design</List.Item>
-                            <List.Item>Frontend development</List.Item>
+                            <List.Item>User research</List.Item>
+                            <List.Item>Frontend development through WordPress</List.Item>
+                            <List.Item>Optimization</List.Item>
                         </List>
                     </Grid.Column>
                 </Grid>
@@ -86,7 +84,7 @@ class ProjectNjordex extends Component {
                     <Grid.Column>
                         <Divider />
                         <Header as='h2' textAlign='left' >
-                            Landing page
+                            The re-design
                         </Header>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor quam nec ligula scelerisque, et molestie ipsum porta. Curabitur et ante et lectus cursus cursus vitae vitae lectus. Mauris eu felis non mi facilisis gravida ut in nunc. Mauris viverra fermentum massa. Nunc nec diam nibh. Nunc eget fringilla odio, in condimentum turpis. Aliquam ac quam lacus.
@@ -96,14 +94,34 @@ class ProjectNjordex extends Component {
 
                 <Grid columns={1} container stackable centered>
                     <Grid.Column>
-                        <Image src={njordexLandingpage} fluid/>
+                        <Image src={dinadiRedesign} fluid/>
                     </Grid.Column>
                 </Grid>
 
                 <Grid columns={2} container stackable centered className="Header-project">
                     <Grid.Column>
                         <Header as='h2' textAlign='left' >
-                            Dashboard
+                            User feedback
+                        </Header>
+                        <p>
+                            Proin porttitor odio eu odio sagittis, ac vehicula risus vehicula. Aenean maximus libero non orci aliquet tincidunt. Nam aliquam eleifend ligula, commodo tincidunt eros congue ac. Proin pellentesque non felis non semper. Ut at nulla nisl. Sed maximus libero turpis, ac dignissim mauris scelerisque sit amet. Vestibulum urna tellus, vehicula vitae justo blandit, fringilla placerat neque.
+                        </p>
+                        <p>
+                            This was one of the interactive prototype we used for feedback made in Adobe XD. It was mainly for the layout of the store & products. Together with the link for the prototype, we had added some questions we would like answered to be able to further improve the design. Try navigating to a product page. Check it out <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/02cfed4b-cca7-4eb8-77a9-545ebbb85828-74fe/" target="_blank" rel="noopener noreferrer">here</a> and the code is "Dinadi123".
+                        </p>
+                    </Grid.Column>
+                </Grid>
+
+                <Grid columns={1} container stackable centered>
+                    <Grid.Column>
+                        <Image src={dinadiMockups} fluid/>
+                    </Grid.Column>
+                </Grid>
+
+                <Grid columns={2} container stackable centered className="Header-project">
+                    <Grid.Column>
+                        <Header as='h2' textAlign='left' >
+                            WordPress
                         </Header>
                         <p>
                             Proin porttitor odio eu odio sagittis, ac vehicula risus vehicula. Aenean maximus libero non orci aliquet tincidunt. Nam aliquam eleifend ligula, commodo tincidunt eros congue ac. Proin pellentesque non felis non semper. Ut at nulla nisl. Sed maximus libero turpis, ac dignissim mauris scelerisque sit amet. Vestibulum urna tellus, vehicula vitae justo blandit, fringilla placerat neque.
@@ -113,24 +131,7 @@ class ProjectNjordex extends Component {
 
                 <Grid columns={1} container stackable centered>
                     <Grid.Column>
-                        <Image src={njordexDashboard} fluid/>
-                    </Grid.Column>
-                </Grid>
-
-                <Grid columns={2} container stackable centered className="Header-project">
-                    <Grid.Column>
-                        <Header as='h2' textAlign='left' >
-                            Responsive design
-                        </Header>
-                        <p>
-                            Proin porttitor odio eu odio sagittis, ac vehicula risus vehicula. Aenean maximus libero non orci aliquet tincidunt. Nam aliquam eleifend ligula, commodo tincidunt eros congue ac. Proin pellentesque non felis non semper. Ut at nulla nisl. Sed maximus libero turpis, ac dignissim mauris scelerisque sit amet. Vestibulum urna tellus, vehicula vitae justo blandit, fringilla placerat neque.
-                        </p>
-                    </Grid.Column>
-                </Grid>
-
-                <Grid columns={1} container stackable centered>
-                    <Grid.Column>
-                        <Image src={njordexMobile} fluid/>
+                        <Image src={dinadiWordpress} fluid/>
                     </Grid.Column>
                 </Grid>
                 <ThanksForReading/>
@@ -139,4 +140,4 @@ class ProjectNjordex extends Component {
     }
 }
 
-export default ProjectNjordex;
+export default ProjectDinadi;
