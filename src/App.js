@@ -9,6 +9,7 @@ import Work from "./Work";
 import Footer from "./Footer";
 import ProjectNjordex from "./ProjectNjordex";
 import ProjectDinadi from "./ProjectDinadi";
+import ProjectAmtos from "./ProjectAmtos";
 
 class App extends Component {
 
@@ -25,6 +26,7 @@ class App extends Component {
                   <AboutMe path="/AboutMe"/>
                   <ProjectNjordex path="/ProjectNjordex"/>
                   <ProjectDinadi path="/ProjectDinadi"/>
+                  <ProjectAmtos path="/ProjectAmtos"/>
                 </Router>
             <Footer/>
           </React.Fragment>

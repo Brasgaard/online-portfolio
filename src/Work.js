@@ -54,7 +54,7 @@ class Work extends Component {
                     </Grid.Column>
 
                     <Grid.Column>
-                        <Image src={amtos} fluid/>
+                        <Link to="/ProjectAmtos"><Image src={amtos} fluid/></Link>
                     </Grid.Column>
                 </Grid>
             </React.Fragment>
