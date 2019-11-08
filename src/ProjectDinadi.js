@@ -82,7 +82,7 @@ class ProjectDinadi extends Component {
                     <Grid.Column>
                         <Divider />
                         <Header as='h2' textAlign='left' >
-                            The re-design
+                            The redesign
                         </Header>
                         <p>
                             The whole process of redesigning Dinadi was very interesting. The founders and co-workers of the company had a lot of great thoughts and ideas for what they would like. Many of the things were amazing ideas, but I had to educate that we had to focus more on users. What they would like, how they reacted to different things and how they interpret the website. It opened some new doors and they quickly saw the benefits of how powerful user research and user testing was.                        </p>
