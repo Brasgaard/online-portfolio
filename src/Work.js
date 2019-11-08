@@ -5,8 +5,7 @@ import dinadi from './components/Assets/project-dinadi.jpg';
 import vama from './components/Assets/project-vama.jpg';
 import amtos from './components/Assets/project-amtos.jpg';
 import { Header, Grid, Image, Responsive } from 'semantic-ui-react';
-import { render } from "react-dom";
-import { Router, Link } from "@reach/router";
+import { Link } from "@reach/router";
 
 class Work extends Component {
     render() {
@@ -50,7 +49,7 @@ class Work extends Component {
                     </Grid.Column>
 
                     <Grid.Column>
-                        <Image src={vama} fluid/>
+                        <Link to="/ProjectVama"><Image src={vama} fluid/></Link>
                     </Grid.Column>
 
                     <Grid.Column>

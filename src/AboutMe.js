@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import { Header, Grid, Image, Responsive, Divider } from 'semantic-ui-react'
-import { render } from "react-dom";
-import { Router, Link } from "@reach/router";
+import { Header, Grid, Image, Responsive, Divider } from 'semantic-ui-react';
 import myself from "./components/Assets/alexander-brasgaard.jpg";
 
 class AboutMe extends Component {

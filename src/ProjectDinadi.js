@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Header, Grid, Responsive, Image, List, Divider} from 'semantic-ui-react'
-import { render } from "react-dom";
-import { Router, Link } from "@reach/router";
+import {Header, Grid, Responsive, Image, List, Divider} from 'semantic-ui-react';
 import dinadiHeader from "./components/Assets/project-dinadi-header.jpg";
 import dinadiRedesign from "./components/Assets/project-dinadi-redesign.jpg";
 import dinadiMockups from "./components/Assets/project-dinadi-mockups.jpg";
@@ -16,7 +14,7 @@ class ProjectDinadi extends Component {
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid centered columns={1} style={{margin: '5rem' }}>
                         <Grid.Column>
-                            <Header as='h1' textAlign='center' style={{fontSize: '3.4em' }}>Project: Dinadi<br/>
+                            <Header as='h1' textAlign='center' style={{fontSize: '3.4em' }}>Dinadi<br/>
                                 Taking slow fashion quite literally.</Header>
                         </Grid.Column>
                     </Grid>
@@ -24,7 +22,7 @@ class ProjectDinadi extends Component {
                 <Responsive {...Responsive.onlyTablet}>
                     <Grid centered columns={1} style={{margin: '3rem' }}>
                         <Grid.Column>
-                            <Header as='h1' textAlign='center' style={{fontSize: '3em' }}>Project: Dinadi<br/>
+                            <Header as='h1' textAlign='center' style={{fontSize: '3em' }}>Dinadi<br/>
                                 Taking slow fashion quite literally.</Header>
                         </Grid.Column>
                     </Grid>
@@ -32,7 +30,7 @@ class ProjectDinadi extends Component {
                 <Responsive {...Responsive.onlyMobile}>
                     <Grid centered columns={1} style={{margin: '1rem' }}>
                         <Grid.Column>
-                            <Header as='h1' textAlign='center' style={{fontSize: '1.3em' }}>Project: Dinadi<br/>
+                            <Header as='h1' textAlign='center' style={{fontSize: '1.3em' }}>Dinadi<br/>
                                 Taking slow fashion quite literally.</Header>
                         </Grid.Column>
                     </Grid>
@@ -75,7 +73,7 @@ class ProjectDinadi extends Component {
                             About the project
                         </Header>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor quam nec ligula scelerisque, et molestie ipsum porta. Curabitur et ante et lectus cursus cursus vitae vitae lectus. Mauris eu felis non mi facilisis gravida ut in nunc. Mauris viverra fermentum massa. Nunc nec diam nibh. Nunc eget fringilla odio, in condimentum turpis. Aliquam ac quam lacus.
+                            This project was made during my internship at Dinadi in 2018 and was a part of my multimedia design education. Dinadi looked for a student that could help them redesign and further improve their branding and online presence on Google and social media. When I joined Dinadi I didn’t know much about WordPress, but after staying with them and having to solve this task I’ve become very confidence within the CMS. My recommendation from Dinadi can be found on my <a style={{ color: '#2f89fc' }} href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -87,8 +85,7 @@ class ProjectDinadi extends Component {
                             The re-design
                         </Header>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor quam nec ligula scelerisque, et molestie ipsum porta. Curabitur et ante et lectus cursus cursus vitae vitae lectus. Mauris eu felis non mi facilisis gravida ut in nunc. Mauris viverra fermentum massa. Nunc nec diam nibh. Nunc eget fringilla odio, in condimentum turpis. Aliquam ac quam lacus.
-                        </p>
+                            The whole process of redesigning Dinadi was very interesting. The founders and co-workers of the company had a lot of great thoughts and ideas for what they would like. Many of the things were amazing ideas, but I had to educate that we had to focus more on users. What they would like, how they reacted to different things and how they interpret the website. It opened some new doors and they quickly saw the benefits of how powerful user research and user testing was.                        </p>
                     </Grid.Column>
                 </Grid>
 
@@ -104,10 +101,7 @@ class ProjectDinadi extends Component {
                             User feedback
                         </Header>
                         <p>
-                            Proin porttitor odio eu odio sagittis, ac vehicula risus vehicula. Aenean maximus libero non orci aliquet tincidunt. Nam aliquam eleifend ligula, commodo tincidunt eros congue ac. Proin pellentesque non felis non semper. Ut at nulla nisl. Sed maximus libero turpis, ac dignissim mauris scelerisque sit amet. Vestibulum urna tellus, vehicula vitae justo blandit, fringilla placerat neque.
-                        </p>
-                        <p>
-                            This was one of the interactive prototype we used for feedback made in Adobe XD. It was mainly for the layout of the store & products. Together with the link for the prototype, we had added some questions we would like answered to be able to further improve the design. Try navigating to a product page. Check it out <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/02cfed4b-cca7-4eb8-77a9-545ebbb85828-74fe/" target="_blank" rel="noopener noreferrer">here</a> and the code is "Dinadi123".
+                            We made multiple interactive prototypes in Adobe XD during our redesign and branding period. One of them can be found through the link <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/02cfed4b-cca7-4eb8-77a9-545ebbb85828-74fe/" target="_blank" rel="noopener noreferrer">here</a> with the code “Dinadi123”. This specific prototype was mainly for the layout of the store & products. Together with the link to the prototype, we had added some questions we would like answered to be able to further improve the design.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -121,10 +115,10 @@ class ProjectDinadi extends Component {
                 <Grid columns={2} container stackable centered className="Header-project">
                     <Grid.Column>
                         <Header as='h2' textAlign='left' >
-                            WordPress
+                            The plugins
                         </Header>
                         <p>
-                            Proin porttitor odio eu odio sagittis, ac vehicula risus vehicula. Aenean maximus libero non orci aliquet tincidunt. Nam aliquam eleifend ligula, commodo tincidunt eros congue ac. Proin pellentesque non felis non semper. Ut at nulla nisl. Sed maximus libero turpis, ac dignissim mauris scelerisque sit amet. Vestibulum urna tellus, vehicula vitae justo blandit, fringilla placerat neque.
+                            Dinadi is an online shop for amazing quality products and therefore different plugins plays important roles. The image under this text showcases some of them, but not all. These are all important in their own way and combined. It is important to get data and understand the users through Google Analytics. The data from here can help further improve the website later on. They have a lot of customers and it is important to keep contact if them and hold them updated on new releases etc. which we received with Mailchimp. To keep the website and online store’s page speed optimal we have installed ‘Smush’ to help keep their image sizes as small as possible while still keeping them good quality.
                         </p>
                     </Grid.Column>
                 </Grid>
