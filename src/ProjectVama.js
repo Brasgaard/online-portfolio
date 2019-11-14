@@ -48,7 +48,7 @@ class ProjectVama extends Component {
                             Background
                         </Header>
                         <p>
-                            VAMA was a small two-week school project that was a combination of our three courses that semester. Backend development, database and interface design. We chose to make VAMA: A clothing renting website where you can rent fine clothing for special occasions.<br/>
+                            VAMA was a two-week school project which incorporated everything we learned from three classes that semester, Backend Development, Database, and Interface Design. We decided to design VAMA to be a service where people could select from a variety of clothing options for various occasions.<br/>
                             Website: <a style={{ color: '#2f89fc' }} href="https://github.com/valerijaa/Clothing-rental-website" target="_blank" rel="noopener noreferrer">Github</a> (Not online)
                         </p>
                     </Grid.Column>
@@ -72,7 +72,7 @@ class ProjectVama extends Component {
                             About the project
                         </Header>
                         <p>
-                            We had to choose a specific topic we wanted to showcase in our project that was meaningful. VAMA’s topic was saving the environment. The purpose of this project was to build a web-based application that could help the users to rent clothes for special occasions in Denmark. The application would promote the waste reduction and sustainable awareness, and allowing the users to explore a large variety of clothes and rent the items for a specific period.
+                            We had to choose a meaningful topic to showcase. Therefore, we opted for environmental preservation as our topic. The purpose was to build a web-based application that helped users rent clothes for special occasions in Denmark. The application was designed to promote awareness in sustainability, waste reduction, and allow users to explore and rent articles for specific events
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -84,7 +84,7 @@ class ProjectVama extends Component {
                             The research
                         </Header>
                         <p>
-                            To understand the topic and the potential customers within this marked, we needed to do desk-research and collect information from interviews. It is important to get an understanding of both to make fitting content for the user. Without we are not sure that we reach our target audience the way we wish to. To gather all this information, we did research on the clothing industry and its pollution, our potential target audience, competitor analysis, made a persona so that we could make an empathy map and user scenarios / journey map.
+                            To understand the topic and potential customers within the market, we used desk-research to collect information for the interviews. Understanding both is essential to producing appropriate content for the users. Without these, it could present difficulties in reaching the target audience in the desired way. To gather all this information, we carried out research on the clothing industry and its pollution, our potential target audience and a competitor analysis. After we collected the information, we made a persona to develop an empathy map and user scenarios/journey map.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -101,7 +101,7 @@ class ProjectVama extends Component {
                             The design
                         </Header>
                         <p>
-                            Based on the information gather from the research, we would start the brainstorming about our design and content. We started out with wireframes for structuring the content, navigation throughout the pages and usability. Wireframing is quick and easy to create an overview of how it should look. After deciding on the wireframes, I create some few high-fidelity mockups reflecting that design. These gave us the idea of how all the pages should look with colors, fonts etc. From here I create a prototype in Adobe XD that we could use for user testing on people in our target audience. In the testing we gathered information about how the user navigated, put focus or maybe were questioning some design decision. We took that feedback to further improve our prototype, which would be used in our final live version.  Check it out <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/7c55274b-1a06-48b9-71a8-987983b317c3-0a64/" target="_blank" rel="noopener noreferrer">here</a>.
+                            Based on the information collected from the research, we began brainstorming designs and content. We started with wireframes for structuring the content, navigating through the pages, and usability. Wireframing is quick and easy to create an overview of an ideal look. After determining the wireframes, I produced high-fidelity mockups that mirrored the design. These gave us a sense of how all the pages should look with colors, fonts, etc. From here, we designed a prototype in Adobe XD that was utilized to test the target audience. From testing, we gathered information about how the users navigated, what they focused on, and the critiques of our design decisions. This feedback prompted us to refine the prototype and then incorporate it into the final version. Check it out <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/7c55274b-1a06-48b9-71a8-987983b317c3-0a64/" target="_blank" rel="noopener noreferrer">here</a>.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -118,7 +118,7 @@ class ProjectVama extends Component {
                             Tools and technology
                         </Header>
                         <p>
-                            This was our first semester project with all three courses mixed. We therefore had to combine the different tools and technology that we have learned so far. Beside different models and theories we used Adobe XD for prototyping. Visual Studio with Entity Framework for backend and frontend development. And for our database we used Microsoft SQL Server Management Studio. Since we went with the Entity Framework in Visual Studio, we also chose to use the database first approach.  For deployment and code sharing we went with GitHub.
+                            VAMA was the first project of the semester involving all three courses. We, therefore, had to combine the various tools and technologies learned. Besides several models and theories, we employed Adobe XD for prototyping and Visual Studio with Entity Framework for backend and frontend development. We implemented Microsoft SQL Server Management Studio for our databases. Since we went with the Entity Framework in Visual Studio, we also opted for the database-first approach. For deployment and code sharing we went with GitHub.
                         </p>
                     </Grid.Column>
                 </Grid>

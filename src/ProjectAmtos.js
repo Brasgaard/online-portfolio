@@ -48,8 +48,7 @@ class ProjectAmtos extends Component {
                             Background
                         </Header>
                         <p>
-                            AM Tømrer og Snedker is a newly started company that does all kind of work within the carpenter field. They operate across Denmark, but mostly in Jutland near Aarhus. They have become very popular since their beginning, because of their great quality work, focus on sustainability and energy-efficient solutions.<br/>
-                            Website: <a style={{ color: '#2f89fc' }} href="https://www.amtos.dk/" target="_blank" rel="noopener noreferrer">Amtos.dk</a>
+                            AM Tømrer og Snedker is a versatile new company with a variety of services within the carpentry field. They primarily operate in Jutland but provide services throughout Denmark. They have become very popular since their beginning for their exceptional quality work, focus on sustainability and energy-efficient solutions.<br/>Website: <a style={{ color: '#2f89fc' }} href="https://www.amtos.dk/" target="_blank" rel="noopener noreferrer">Amtos.dk</a>
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -73,7 +72,7 @@ class ProjectAmtos extends Component {
                             About the project
                         </Header>
                         <p>
-                            This project is a simple static informational website for new potential customers to find information. The website has a simple setup with quick information about them, their previous work and how to contact them. It is important that it doesn’t take long time to find the information the user is looking for to prevent possible higher bounce rate.
+                            This project is a simple and informative website for potential customers. The setup is modest with an about section, contact section, and previous projects. It mustn't take a long time to locate information if we were to retain lower bounce rates.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -85,7 +84,7 @@ class ProjectAmtos extends Component {
                             The flaws
                         </Header>
                         <p>
-                            When I got asked if I could help with their website and wishes for it, I started by analyzing their entire website for flaws. It didn’t take me long to find errors like slow loading, wrong semantics, no use of important SEO etc. Well-known issues for persons who don’t know about them. These issues are very important to solve for better user experience and SEO. Which in the end could result in new customers for AM Tømrer og Snedker.
+                            When asked to help update their website, I started by analyzing their entire website for defects. It didn't take long to discover errors like sluggish loading, incorrect semantics, no use of an essential SEO, etc. These were well-known issues amongst new customers. It is crucial to solve these problems for a more satisfying user experience and SEO. By resolving these crucial issues, AM Tømrer og Snedker could result in an improved customer flow.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -102,10 +101,10 @@ class ProjectAmtos extends Component {
                             The adjustments
                         </Header>
                         <p>
-                            The biggest problem for their website was loading speed. This was fixed by optimizing every image on their website, re-sizing them to their specific size and deleting unnecessary ones. This makes sure that the image file became as small as possible, while still remaining good quality. Semantics across the website was fixed as well together with meta-descriptions on every page. We also added some more content to their site such as “Projekter”, “Hvem er vi”, testimonials and social media links.
+                            The most prominent problem for their website was loading speed. Primarily, deleting, optimizing and re-sizing images solved the issue. Through the optimization, the images retained quality with minimal file space taken. We fixed the semantics and meta-descriptions across the website too. Additional content such as 'Projekter', 'Hvem er vi', testimonials, and social media links was incorporated to support further usability.
                         </p>
                         <p>
-                            Together all these changes plus some more resulted in a great improvement overall. Their pagespeed score from Google Pagespeed Insight went up by 166% on mobile and 134% on desktop.
+                            All of these changes, with a few more, improved the overall effectiveness of the site. According to Google PageSpeed Insight, the site speed increased 166% on mobile and 134% on desktop.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -122,7 +121,7 @@ class ProjectAmtos extends Component {
                             WordPress
                         </Header>
                         <p>
-                            The website was developed in WordPress for multiple reasons. They can easily change the content themselves for future projects or if want new information. I also installed different plug-ins that will help them automatically like ‘Smush’ to make sure their new images stay optimized. This is help them to keep their website fast and enjoyable for visitors.
+                            WordPress was utilized to develop this website for numerous reasons. When they have future projects or need to update information, content can effortlessly be modified. Additionally, I installed several plugins, such as Smush, to automatically assist with content. These allow them to retain a faster, more enjoyable website.
                         </p>
                     </Grid.Column>
                 </Grid>

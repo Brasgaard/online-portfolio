@@ -48,8 +48,7 @@ class ProjectDinadi extends Component {
                             Background
                         </Header>
                         <p>
-                            Dinadi is a social business established in Kathmandu, Nepal in April, 2016. Their vision is to create fair employment opportunities for Nepali women and produce sustainable, timeless and high-quality knitwear.<br/>
-                            Website: <a style={{ color: '#2f89fc' }} href="https://www.dinadi.com/" target="_blank" rel="noopener noreferrer">Dinadi.com</a>
+                            Founded in 2016, Dinadi is a Nepali social business that strives for sustainability and offers fair employment opportunities. Hand-crafted articles of clothing are not only made by the women of Nepal but are high-quality and timeless. Using merino and yak wool allows for sustainability due to its properties. However, it doesn't stop there - the unused materials are re-cultivated.<br/>Website: <a style={{ color: '#2f89fc' }} href="https://www.dinadi.com/" target="_blank" rel="noopener noreferrer">Dinadi.com</a>
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -73,7 +72,7 @@ class ProjectDinadi extends Component {
                             About the project
                         </Header>
                         <p>
-                            This project was made during my internship at Dinadi in 2018 and was a part of my multimedia design education. Dinadi looked for a student that could help them redesign and further improve their branding and online presence on Google and social media. When I joined Dinadi I didn’t know much about WordPress, but after staying with them and having to solve this task I’ve become very confidence within the CMS. My recommendation from Dinadi can be found on my <a style={{ color: '#2f89fc' }} href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+                            Being a part of my Multimedia Design education, this project was executed during my internship at Dinadi in 2018. Dinadi sought after a student to help redesign and improve their branding, Google presence, and social media. Starting at Dinadi, I knew little of WordPress. After investing the time at Dinadi with the CMS, I have become confident and is now more fluid. My recommendation from Dinadi can be found on my <a style={{ color: '#2f89fc' }} href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -85,7 +84,8 @@ class ProjectDinadi extends Component {
                             The redesign
                         </Header>
                         <p>
-                            The whole process of redesigning Dinadi was very interesting. The founders and co-workers of the company had a lot of great thoughts and ideas for what they would like. Many of the things were amazing ideas, but I had to educate that we had to focus more on users. What they would like, how they reacted to different things and how they interpret the website. It opened some new doors and they quickly saw the benefits of how powerful user research and user testing was.                        </p>
+                            The redesigning of Dinadi was especially interesting. Everyone had such brilliant ideas - knowing what they wanted. However, I expressed the importance of primarily focusing on end-users. Afterward, we directed our attention to what the consumer would like on the website. From our engagements in user-centralized testing and research, other employees realized the gravity of this method.
+                        </p>
                     </Grid.Column>
                 </Grid>
 
@@ -101,7 +101,7 @@ class ProjectDinadi extends Component {
                             User feedback
                         </Header>
                         <p>
-                            We made multiple interactive prototypes in Adobe XD during our redesign and branding period. One of them can be found through the link <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/02cfed4b-cca7-4eb8-77a9-545ebbb85828-74fe/" target="_blank" rel="noopener noreferrer">here</a> with the code “Dinadi123”. This specific prototype was mainly for the layout of the store & products. Together with the link to the prototype, we had added some questions we would like answered to be able to further improve the design.
+                            We developed numerous interactive prototypes in Adobe XD during the redesign and branding period. One of the prototypes can be found <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/02cfed4b-cca7-4eb8-77a9-545ebbb85828-74fe/" target="_blank" rel="noopener noreferrer">here</a> with the code 'Dinadi123'. Primarily, this one was for store layouts and items. We also incorporated several questions for the testers to answer to further gain knowledge which helped improve the design.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -118,7 +118,7 @@ class ProjectDinadi extends Component {
                             The plugins
                         </Header>
                         <p>
-                            Dinadi is an online shop for amazing quality products and therefore different plugins plays important roles. The image under this text showcases some of them, but not all. These are all important in their own way and combined. It is important to get data and understand the users through Google Analytics. The data from here can help further improve the website later on. They have a lot of customers and it is important to keep contact if them and hold them updated on new releases etc. which we received with Mailchimp. To keep the website and online store’s page speed optimal we have installed ‘Smush’ to help keep their image sizes as small as possible while still keeping them good quality.
+                            Dinadi offers high-quality products and is why utilizing plugins is relevant. Each plugin is unique and plays an essential role, both individually and collectively. The image beneath the text showcases some of the plugins used. Using Google Analytics allows us to collect valuable data and understand users. From here, the data can help improve the website when needed. Dinadi has many customers and is, consequently, very important to retain contact. This connection is preserved by sending updates/new releases, etc. with Mailchimp. We opted for Smush, an image compressor, to keep the website and online store's page at an optimal speed. While image compressors generally sometimes ruin the picture, Smush is exceptionally good in quality conservation.
                         </p>
                     </Grid.Column>
                 </Grid>

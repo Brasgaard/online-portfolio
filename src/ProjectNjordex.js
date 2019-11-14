@@ -49,9 +49,7 @@ class ProjectNjordex extends Component {
                             Background
                         </Header>
                         <p>
-                            Njordex is a cryptocurrency platform where you can buy, sell, send and store your crypto assets. The goal is to make the experience with cryptocurrency user-friendly and simple for everybody.<br/>
-                            Website (still under development): <a style={{ color: '#2f89fc' }} href="https://www.njordex.dk/" target="_blank" rel="noopener noreferrer">Njordex.dk</a>
-
+                            Njordex began as three friends discussing an idea in school. We were so engrossed in cryptocurrencies and blockchain technology. Delving deeper into the subject, we only became increasingly enthused for a more profound understanding. In 2018 Njordex was established.<br/>Website (still under development): <a style={{ color: '#2f89fc' }} href="https://www.njordex.dk/" target="_blank" rel="noopener noreferrer">Njordex.dk</a>
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -75,7 +73,7 @@ class ProjectNjordex extends Component {
                             About the project
                         </Header>
                         <p>
-                            Njordex started as a side project besides school together with three friends. We were all interested in the idea of cryptocurrencies and the blockchain technology. As we got deeper into the whole building of Njordex and gained even more knowledge on the subject, we decided in 2018 to register as a company. We want to bring our idea of a user-friendly cryptocurrency platform to life and bring awareness around the community. Njordex is currently still under development, but we hope to soon launch our first version.
+                            Founded in Aarhus Njordex is a fast and smoothly operating platform for organizing and trading cryptocurrency assets. Njordex aims to offer a more impactful and insightful, user-friendly experience for all traders. Njordex also aims to raise positive awareness around cryptocurrency in Denmark. Although Njordex is still under development, the first version is expected to launch reasonably soon.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -87,7 +85,7 @@ class ProjectNjordex extends Component {
                             Landing page
                         </Header>
                         <p>
-                            On Njordex’s landing page you quickly get introduced to a short sentence which states what we offer on our platform. It’s important to catch new visitors’ attention and try convincing them to continue reading about what we provide. With the sentence we have a very visible call-to-action button for new sign-ups together with an image of our dashboard. These three things combined quickly introduces to what we stand for, easy sign-ups and hopefully leads the visitors’ to further read on about our platform.
+                            On Njordex’s landing page, a sentence introduces the user to what the platform has to offer. Prospective users need to be captivated enough to continue reading about the offers. Therefore, we set out to develop an engaging, fresh landing page. Underneath the sentence, we have an unmistakable call-to-action button and dashboard preview designated for signing up. These three things submerse the user into what we strive for and have to offer.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -104,7 +102,7 @@ class ProjectNjordex extends Component {
                             Dashboard
                         </Header>
                         <p>
-                            Our dashboard is divided into four different segments: Activities, portfolio, three CTA buttons to the ‘buy’, ‘sell’ and ‘send’ pages and a live chart of the current price of a selected cryptocurrency. This gives a fast and simple overview of your portfolio, recently made activities and the most used features with CTA buttons for quick access. The chart can provide different settings depending on how accurate you would like to see the price for a giving date/time. We only wanted to bring out the most necessary features on the dashboard and make sure the user didn’t have to scroll to see certain information. For more information it is easy to find the relevant page in the navigation.
+                            The dashboard is organized into four segments: activities, portfolio, three CTA buttons labeled ’buy’, ’sell’ and ’send’, and a live price chart of a selected cryptocurrency. The live price chart has a wide range of price accuracy settings for specific dates/times. Having the dashboard organized this way allows for swift and accessible overviews of the platform and your assets. We wanted to include the most necessary features to ensure users weren’t struggling to navigate the platform. However, it is still easy to navigate the platform when searching for other information.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -121,7 +119,7 @@ class ProjectNjordex extends Component {
                             Responsive design
                         </Header>
                         <p>
-                            As stated on the landing page, cryptocurrency should be available on-the-go. Therefore, we also knew from the beginning we wanted to keep it mobile friendly for the users. This gives them the opportunity to make trades with others, buy, sell or send their cryptocurrency anytime and anywhere. It gives a lot of freedom and flexibility for everybody, no matter what the need of the user is.
+                            As stated on the landing page, cryptocurrency should be available on-the-go. Therefore, from the beginning, we knew it was crucial to have a mobile-friendly interface. By having a mobile-friendly interface, the user is given smooth access to a wide array of features, such as selling or sending cryptocurrencies. This grants freedom and flexibility, no matter the situation.
                         </p>
                     </Grid.Column>
                 </Grid>
