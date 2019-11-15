@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Header, Grid, Responsive, Image, List, Divider} from 'semantic-ui-react';
+import FadeIn from 'react-fade-in';
 import dinadiHeader from "./components/Assets/project-dinadi-header.jpg";
 import dinadiRedesign from "./components/Assets/project-dinadi-redesign.jpg";
 import dinadiMockups from "./components/Assets/project-dinadi-mockups.jpg";
@@ -11,6 +12,7 @@ class ProjectDinadi extends Component {
     render() {
         return (
             <React.Fragment>
+                <FadeIn>
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid centered columns={1} style={{margin: '5rem' }}>
                         <Grid.Column>
@@ -48,7 +50,7 @@ class ProjectDinadi extends Component {
                             Background
                         </Header>
                         <p>
-                            Founded in 2016, Dinadi is a Nepali social business that strives for sustainability and offers fair employment opportunities. Hand-crafted articles of clothing are not only made by the women of Nepal but are high-quality and timeless. Using merino and yak wool allows for sustainability due to its properties. However, it doesn't stop there - the unused materials are re-cultivated.<br/>Website: <a style={{ color: '#2f89fc' }} href="https://www.dinadi.com/" target="_blank" rel="noopener noreferrer">Dinadi.com</a>
+                            Founded in 2016, Dinadi is a Nepali social business that strives for sustainability and offers fair employment opportunities. Hand-crafted articles of clothing are not only made by the women of Nepal but are high-quality and timeless. Using merino and yak wool allows for sustainability due to its properties. However, it doesn't stop there - the unused materials are re-cultivated.<br/>Website: <a href="https://www.dinadi.com/" target="_blank" rel="noopener noreferrer">Dinadi.com</a>
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -72,7 +74,7 @@ class ProjectDinadi extends Component {
                             About the project
                         </Header>
                         <p>
-                            Being a part of my Multimedia Design education, this project was executed during my internship at Dinadi in 2018. Dinadi sought after a student to help redesign and improve their branding, Google presence, and social media. Starting at Dinadi, I knew little of WordPress. After investing the time at Dinadi with the CMS, I have become confident and is now more fluid. My recommendation from Dinadi can be found on my <a style={{ color: '#2f89fc' }} href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+                            Being a part of my Multimedia Design education, this project was executed during my internship at Dinadi in 2018. Dinadi sought after a student to help redesign and improve their branding, Google presence, and social media. Starting at Dinadi, I knew little of WordPress. After investing the time at Dinadi with the CMS, I have become confident and is now more fluid. My recommendation from Dinadi can be found on my <a href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -101,7 +103,7 @@ class ProjectDinadi extends Component {
                             User feedback
                         </Header>
                         <p>
-                            We developed numerous interactive prototypes in Adobe XD during the redesign and branding period. One of the prototypes can be found <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/02cfed4b-cca7-4eb8-77a9-545ebbb85828-74fe/" target="_blank" rel="noopener noreferrer">here</a> with the code 'Dinadi123'. Primarily, this one was for store layouts and items. We also incorporated several questions for the testers to answer to further gain knowledge which helped improve the design.
+                            We developed numerous interactive prototypes in Adobe XD during the redesign and branding period. One of the prototypes can be found <a href="https://xd.adobe.com/view/02cfed4b-cca7-4eb8-77a9-545ebbb85828-74fe/" target="_blank" rel="noopener noreferrer">here</a> with the code 'Dinadi123'. Primarily, this one was for store layouts and items. We also incorporated several questions for the testers to answer to further gain knowledge which helped improve the design.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -129,6 +131,7 @@ class ProjectDinadi extends Component {
                     </Grid.Column>
                 </Grid>
                 <ThanksForReading/>
+                </FadeIn>
             </React.Fragment>
         );
     }

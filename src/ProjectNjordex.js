@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Header, Grid, Responsive, Image, List, Divider} from 'semantic-ui-react';
+import FadeIn from 'react-fade-in';
 import njordexHeader from "./components/Assets/project-njordex-header.jpg";
 import njordexLandingpage from "./components/Assets/project-njordex-landingpage.jpg";
 import njordexDashboard from "./components/Assets/project-njordex-dashboard.jpg";
@@ -11,6 +12,7 @@ class ProjectNjordex extends Component {
     render() {
         return (
             <React.Fragment>
+                <FadeIn>
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid centered columns={1} style={{margin: '5rem' }}>
                         <Grid.Column>
@@ -49,7 +51,7 @@ class ProjectNjordex extends Component {
                             Background
                         </Header>
                         <p>
-                            Njordex began as three friends discussing an idea in school. We were so engrossed in cryptocurrencies and blockchain technology. Delving deeper into the subject, we only became increasingly enthused for a more profound understanding. In 2018 Njordex was established.<br/>Website (still under development): <a style={{ color: '#2f89fc' }} href="https://www.njordex.dk/" target="_blank" rel="noopener noreferrer">Njordex.dk</a>
+                            Njordex began as three friends discussing an idea in school. We were so engrossed in cryptocurrencies and blockchain technology. Delving deeper into the subject, we only became increasingly enthused for a more profound understanding. In 2018 Njordex was established.<br/>Website (still under development): <a href="https://www.njordex.dk/" target="_blank" rel="noopener noreferrer">Njordex.dk</a>
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -130,6 +132,7 @@ class ProjectNjordex extends Component {
                     </Grid.Column>
                 </Grid>
                 <ThanksForReading/>
+                </FadeIn>
             </React.Fragment>
         );
     }

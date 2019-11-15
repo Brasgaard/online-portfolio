@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Header, Grid, Responsive, Image, List, Divider} from 'semantic-ui-react';
+import FadeIn from 'react-fade-in';
 import amtosHeader from "./components/Assets/project-amtos-header.jpg";
 import amtosDevices1 from "./components/Assets/project-amtos-devices1.jpg";
 import amtosDevices from "./components/Assets/project-amtos-devices.jpg";
@@ -11,6 +12,7 @@ class ProjectAmtos extends Component {
     render() {
         return (
             <React.Fragment>
+                <FadeIn>
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid centered columns={1} style={{margin: '5rem' }}>
                         <Grid.Column>
@@ -48,7 +50,7 @@ class ProjectAmtos extends Component {
                             Background
                         </Header>
                         <p>
-                            AM Tømrer og Snedker is a versatile new company with a variety of services within the carpentry field. They primarily operate in Jutland but provide services throughout Denmark. They have become very popular since their beginning for their exceptional quality work, focus on sustainability and energy-efficient solutions.<br/>Website: <a style={{ color: '#2f89fc' }} href="https://www.amtos.dk/" target="_blank" rel="noopener noreferrer">Amtos.dk</a>
+                            AM Tømrer og Snedker is a versatile new company with a variety of services within the carpentry field. They primarily operate in Jutland but provide services throughout Denmark. They have become very popular since their beginning for their exceptional quality work, focus on sustainability and energy-efficient solutions.<br/>Website: <a href="https://www.amtos.dk/" target="_blank" rel="noopener noreferrer">Amtos.dk</a>
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -132,6 +134,7 @@ class ProjectAmtos extends Component {
                     </Grid.Column>
                 </Grid>
                 <ThanksForReading/>
+                </FadeIn>
             </React.Fragment>
         );
     }

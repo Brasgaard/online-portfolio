@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Header, Grid, Responsive, Image, List, Divider} from 'semantic-ui-react';
+import FadeIn from 'react-fade-in';
 import vamaHeader from "./components/Assets/project-vama-header.jpg";
 import vamaDevices1 from "./components/Assets/project-vama-devices1.jpg";
 import vamaDevices from "./components/Assets/project-vama-devices.jpg";
@@ -11,6 +12,7 @@ class ProjectVama extends Component {
     render() {
         return (
             <React.Fragment>
+                <FadeIn>
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid centered columns={1} style={{margin: '5rem' }}>
                         <Grid.Column>
@@ -49,7 +51,7 @@ class ProjectVama extends Component {
                         </Header>
                         <p>
                             VAMA was a two-week school project which incorporated everything we learned from three classes that semester, Backend Development, Database, and Interface Design. We decided to design VAMA to be a service where people could select from a variety of clothing options for various occasions.<br/>
-                            Website: <a style={{ color: '#2f89fc' }} href="https://github.com/valerijaa/Clothing-rental-website" target="_blank" rel="noopener noreferrer">Github</a> (Not online)
+                            Website: <a href="https://github.com/valerijaa/Clothing-rental-website" target="_blank" rel="noopener noreferrer">Github</a> (Not online)
                         </p>
                     </Grid.Column>
                     <Grid.Column>
@@ -101,7 +103,7 @@ class ProjectVama extends Component {
                             The design
                         </Header>
                         <p>
-                            Based on the information collected from the research, we began brainstorming designs and content. We started with wireframes for structuring the content, navigating through the pages, and usability. Wireframing is quick and easy to create an overview of an ideal look. After determining the wireframes, I produced high-fidelity mockups that mirrored the design. These gave us a sense of how all the pages should look with colors, fonts, etc. From here, we designed a prototype in Adobe XD that was utilized to test the target audience. From testing, we gathered information about how the users navigated, what they focused on, and the critiques of our design decisions. This feedback prompted us to refine the prototype and then incorporate it into the final version. Check it out <a style={{ color: '#2f89fc' }} href="https://xd.adobe.com/view/7c55274b-1a06-48b9-71a8-987983b317c3-0a64/" target="_blank" rel="noopener noreferrer">here</a>.
+                            Based on the information collected from the research, we began brainstorming designs and content. We started with wireframes for structuring the content, navigating through the pages, and usability. Wireframing is quick and easy to create an overview of an ideal look. After determining the wireframes, I produced high-fidelity mockups that mirrored the design. These gave us a sense of how all the pages should look with colors, fonts, etc. From here, we designed a prototype in Adobe XD that was utilized to test the target audience. From testing, we gathered information about how the users navigated, what they focused on, and the critiques of our design decisions. This feedback prompted us to refine the prototype and then incorporate it into the final version. Check it out <a href="https://xd.adobe.com/view/7c55274b-1a06-48b9-71a8-987983b317c3-0a64/" target="_blank" rel="noopener noreferrer">here</a>.
                         </p>
                     </Grid.Column>
                 </Grid>
@@ -129,6 +131,7 @@ class ProjectVama extends Component {
                     </Grid.Column>
                 </Grid>
                 <ThanksForReading/>
+                </FadeIn>
             </React.Fragment>
         );
     }

@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 import './App.css';
 import { Header, Grid, Image, Responsive, Divider } from 'semantic-ui-react';
+import FadeIn from 'react-fade-in';
 import myself from "./components/Assets/alexander-brasgaard.jpg";
+import {Link} from "@reach/router";
 
 class AboutMe extends Component {
     render() {
         return (
             <React.Fragment>
+                <FadeIn>
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid centered columns={2} style={{margin: '5rem' }}>
                         <Grid.Column>
@@ -50,10 +53,10 @@ class AboutMe extends Component {
                             I believe working directly with the consumer from the beginning is of great importance, as it allows for more accurate, sought-after solutions. It is necessary to conduct experiments, develop prototypes and convene in several interviews to achieve this.
                         </p>
                         <p>
-                            I am available for new projects, <a style={{ color: '#2f89fc' }} href="mailto:alexander@brasgaard.com" target="_top">so send me a message</a>. I would love to discuss how I can accommodate you. I’m open to working on-site in Aarhus or remotely and even in another country if apposite.
+                            I am available for new projects, <a href="mailto:alexander@brasgaard.com" target="_top">so send me a message</a>. I would love to discuss how I can accommodate you. I’m open to working on-site in Aarhus or remotely and even in another country if apposite.
                         </p>
                         <p>
-                            You can follow me on <a style={{ color: '#2f89fc' }} href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or reach out via email - <a style={{ color: '#2f89fc' }} href="mailto:alexander@brasgaard.com" target="_top">alexander@brasgaard.com</a>
+                            You can follow me on <a href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or reach out via email - <a href="mailto:alexander@brasgaard.com" target="_top">alexander@brasgaard.com</a>
                         </p>
 
                         <Divider />
@@ -62,7 +65,7 @@ class AboutMe extends Component {
                             Competences
                         </Header>
                         <p>
-                            HTML / CSS / SASS / JavaScript / React / SEO / Prototyping / Adobe Creative Cloud / WordPress / Drupal 8 / Umbraco 8
+                            HTML / CSS / SASS / JavaScript / React / SEO / Prototyping / Adobe Creative Cloud / WordPress / Drupal 8 / Umbraco 8  / Unity
                         </p>
 
                         <Divider />
@@ -134,6 +137,17 @@ class AboutMe extends Component {
                         </p>
                     </Grid.Column>
                 </Grid>
+
+                    <Grid columns={2} container stackable centered className="Header-project">
+                        <Grid.Column>
+                            <Header as='h2' textAlign='center' >
+                                Thanks for reading!<br/>
+                                <Link to="/Work">See my projects</Link>
+                            </Header>
+                        </Grid.Column>
+                    </Grid>
+
+                </FadeIn>
             </React.Fragment>
         );
     }

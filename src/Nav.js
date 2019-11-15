@@ -10,48 +10,48 @@ class Nav extends Component {
                 <Responsive {...Responsive.onlyComputer}>
                     <Grid stackable columns='equal' style={{margin: '2rem' }}>
                         <Grid.Column textAlign='center'>
-                            <Link to="/Work">Work</Link>
+                            <Link className="Nav-link" to="/Work">Work</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <a style={{ color: '#2f89fc' }} href={resume} rel="noopener noreferrer" target="_blank">Resume</a>
+                            <a className="Nav-link" href={resume} rel="noopener noreferrer" target="_blank">Resume</a>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <Link style={{fontSize: '1.5em', letterSpacing: '3px', fontWeight: 'bold', color: '#000' }} to="/Work">BRASGAARD</Link>
+                            <Link className="Nav-logo" to="/Work">BRASGAARD</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <Link to="/AboutMe">About</Link>
+                            <Link className="Nav-link" to="/AboutMe">About</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <a style={{ color: '#2f89fc' }} href="mailto:alexander@brasgaard.com" target="_top">Let's Talk!</a>
+                            <a className="Nav-link" href="mailto:alexander@brasgaard.com" target="_top">Let's Talk!</a>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
                 <Responsive {...Responsive.onlyTablet}>
                     <Grid stackable columns='equal' style={{margin: '2rem' }}>
                         <Grid.Column textAlign='center'>
-                            <Link to="/Work">Work</Link>
+                            <Link className="Nav-link" to="/Work">Work</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <Link to="/Work">Resume</Link>
+                            <Link className="Nav-link" to="/Work">Resume</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <Link style={{fontSize: '1.5em', letterSpacing: '3px', fontWeight: 'bold', color: '#000' }} to="/Work">BRASGAARD</Link>
+                            <Link className="Nav-logo" to="/Work">BRASGAARD</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <Link to="/AboutMe">About</Link>
+                            <Link className="Nav-link" to="/AboutMe">About</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center'>
-                            <a style={{ color: '#2f89fc' }} href="mailto:alexander@brasgaard.com" target="_top">Let's Talk!</a>
+                            <a className="Nav-link" href="mailto:alexander@brasgaard.com" target="_top">Let's Talk!</a>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
                 <Responsive {...Responsive.onlyMobile}>
                     <Grid stackable columns='equal' style={{margin: '2rem' }}>
                         <Grid.Column textAlign='center'>
-                            <Link style={{fontSize: '1.5em', letterSpacing: '3px', fontWeight: 'bold', color: '#000' }} to="/Work">BRASGAARD</Link>
+                            <Link className="Nav-logo" to="/Work">BRASGAARD</Link>
                         </Grid.Column>
                         <Grid.Column textAlign='center' style={{wordSpacing: '30px' }}>
-                            <Link to="/Work">Work</Link> <Link to="/Work">Resume</Link> <Link to="/AboutMe">About</Link> <a style={{ color: '#2f89fc', wordSpacing: '0px' }} href="mailto:alexander@brasgaard.com" target="_top">Let's Talk!</a>
+                            <Link className="Nav-link" to="/Work">Work</Link> <Link className="Nav-link" to="/Work">Resume</Link> <Link className="Nav-link" to="/AboutMe">About</Link> <a className="Nav-link" style={{ wordSpacing: '0px' }} href="mailto:alexander@brasgaard.com" target="_top">Let's Talk!</a>
                         </Grid.Column>
 
                     </Grid>

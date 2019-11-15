@@ -10,6 +10,7 @@ import ProjectNjordex from "./ProjectNjordex";
 import ProjectDinadi from "./ProjectDinadi";
 import ProjectAmtos from "./ProjectAmtos";
 import ProjectVama from "./ProjectVama";
+import {ScrollToTop} from "./ScrollToTop";
 
 class App extends Component {
 
@@ -21,13 +22,15 @@ class App extends Component {
   return (
           <React.Fragment>
             <Nav/>
-                <Router>
-                  <Work path="/Work"/>
-                  <AboutMe path="/AboutMe"/>
-                  <ProjectNjordex path="/ProjectNjordex"/>
-                  <ProjectDinadi path="/ProjectDinadi"/>
-                  <ProjectAmtos path="/ProjectAmtos"/>
-                  <ProjectVama path="/ProjectVama"/>
+                <Router primary={false}>
+                    <ScrollToTop path="/">
+                      <Work path="/Work"/>
+                      <AboutMe path="/AboutMe"/>
+                      <ProjectNjordex path="/ProjectNjordex"/>
+                      <ProjectDinadi path="/ProjectDinadi"/>
+                      <ProjectAmtos path="/ProjectAmtos"/>
+                      <ProjectVama path="/ProjectVama"/>
+                    </ScrollToTop>
                 </Router>
             <Footer/>
           </React.Fragment>
