@@ -120,7 +120,7 @@ class AboutMe extends Component {
                             <br/><br/>
                             2019 - Present<br/>
                             Business Academy Aarhus<br/>
-                            Bachelor in web development<br/>
+                            Bachelor in Web development<br/>
                         </p>
                     </Grid.Column>
                 </Grid>
