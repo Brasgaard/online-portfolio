@@ -22,7 +22,8 @@
 }
 
 .Header-project {
-  margin-top: 50px !important;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
 }
 
 .Hover-project {
@@ -84,4 +85,12 @@ body a:hover {
 
 .Nav-link {
   color: #000000 !important;
+}
+
+.Grid-margin-top {
+  margin-top: 2% !important;
+}
+
+.Grid-margin-bottom {
+  margin-bottom: 2% !important;
 }

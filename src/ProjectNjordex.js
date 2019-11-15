@@ -45,7 +45,7 @@ class ProjectNjordex extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid columns={4} container stackable centered>
+                <Grid columns={4} container stackable centered className="Grid-margin-top">
                     <Grid.Column>
                         <Header as='h2' textAlign='left'>
                             Background
@@ -69,9 +69,9 @@ class ProjectNjordex extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid columns={2} container stackable centered>
+                <Grid columns={2} container stackable centered className="Grid-margin-top">
                     <Grid.Column>
-                        <Header as='h2' textAlign='left' >
+                        <Header as='h2' textAlign='left'>
                             About the project
                         </Header>
                         <p>
@@ -80,7 +80,7 @@ class ProjectNjordex extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid columns={2} container stackable centered>
+                <Grid columns={2} container stackable centered className="Grid-margin-bottom">
                     <Grid.Column>
                         <Divider />
                         <Header as='h2' textAlign='left' >

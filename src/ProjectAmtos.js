@@ -44,7 +44,7 @@ class ProjectAmtos extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid columns={4} container stackable centered>
+                <Grid columns={4} container stackable centered className="Grid-margin-top">
                     <Grid.Column>
                         <Header as='h2' textAlign='left'>
                             Background
@@ -68,7 +68,7 @@ class ProjectAmtos extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid columns={2} container stackable centered>
+                <Grid columns={2} container stackable centered className="Grid-margin-top">
                     <Grid.Column>
                         <Header as='h2' textAlign='left' >
                             About the project
@@ -79,7 +79,7 @@ class ProjectAmtos extends Component {
                     </Grid.Column>
                 </Grid>
 
-                <Grid columns={2} container stackable centered>
+                <Grid columns={2} container stackable centered className="Grid-margin-bottom">
                     <Grid.Column>
                         <Divider />
                         <Header as='h2' textAlign='left' >
