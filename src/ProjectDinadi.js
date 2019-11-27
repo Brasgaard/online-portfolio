@@ -86,7 +86,7 @@ class ProjectDinadi extends Component {
                             The redesign
                         </Header>
                         <p>
-                            The redesigning of Dinadi was especially interesting. Everyone had such brilliant ideas - knowing what they wanted. However, I expressed the importance of primarily focusing on end-users. Afterward, we directed our attention to what the consumer would like on the website. From our engagements in user-centralized testing and research, other employees realized the gravity of this method.
+                            The redesigning of Dinadi was especially interesting. Everyone had such brilliant ideas - knowing what they wanted. However, I expressed the importance of primarily focusing on end-users. Afterward, we directed our attention to what the users would like on the website. From our engagements in user-centralized testing and research, other employees realized the gravity of this method.
                         </p>
                     </Grid.Column>
                 </Grid>

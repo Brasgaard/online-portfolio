@@ -53,7 +53,7 @@ class AboutMe extends Component {
                             I believe working directly with the consumer from the beginning is of great importance, as it allows for more accurate, sought-after solutions. It is necessary to conduct experiments, develop prototypes and convene in several interviews to achieve this.
                         </p>
                         <p>
-                            I am available for new projects, <a href="mailto:alexander@brasgaard.com" target="_top">so send me a message</a>. I would love to discuss how I can accommodate you. I’m open to working on-site in Aarhus or remotely and even in another country if apposite.
+                            I am available for new projects, <a href="mailto:alexander@brasgaard.com" target="_top">so send me a message</a>. I would love to discuss How I can help to accommodate your needs. I’m open to working on-site in Aarhus or remotely and even in another country if apposite.
                         </p>
                         <p>
                             You can follow me on <a href="https://www.linkedin.com/in/alexander-brasgaard-van-straaten-31666314a/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or reach out via email - <a href="mailto:alexander@brasgaard.com" target="_top">alexander@brasgaard.com</a>

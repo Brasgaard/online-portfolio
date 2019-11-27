@@ -18,7 +18,7 @@ class Work extends Component {
                         <Grid.Column>
                             <Header as='h1' textAlign='center' style={{fontSize: '3.4em' }}>Hi, I’m Alexander <span className="Waving-emoji" role="img" aria-label="waving-hand">👋🏼</span> — a frontend
                                 developer & webdesigner based in
-                                Aarhus Denmark.</Header>
+                                Aarhus, Denmark.</Header>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
@@ -27,7 +27,7 @@ class Work extends Component {
                         <Grid.Column>
                             <Header as='h1' textAlign='center' style={{fontSize: '3em' }}>Hi, I’m Alexander <span role="img" aria-label="waving-hand">👋🏼</span> — a frontend
                                 developer & webdesigner based in
-                                Aarhus Denmark.</Header>
+                                Aarhus, Denmark.</Header>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
@@ -36,7 +36,7 @@ class Work extends Component {
                         <Grid.Column>
                             <Header as='h1' textAlign='center' style={{fontSize: '1.4em' }}>Hi, I’m Alexander <span role="img" aria-label="waving-hand">👋🏼</span> — a frontend
                                 developer & webdesigner based in
-                                Aarhus Denmark.</Header>
+                                Aarhus, Denmark.</Header>
                         </Grid.Column>
                     </Grid>
                 </Responsive>
